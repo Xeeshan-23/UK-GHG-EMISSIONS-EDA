@@ -3,18 +3,12 @@
 ##  Project Overview
 This repository contains a comprehensive Exploratory Data Analysis (EDA) of the UK's greenhouse gas emissions across three main categories (CO₂, CH₄, N₂O) from 1970 to 2023. Moving beyond basic historical trendlines, this project utilizes Python-driven techniques and predictive modeling to identify macro-deceleration rates, isolate structural anomalies, highlight multi-gas policy gaps, and forecast trajectories against the 2050 Net Zero mandate.
 
-![Largest GHG Emission by Sector_2024](image.png)
-
 ##  Key Objectives & Methodologies
 *   **Sectoral Decomposition:** Identified the heaviest polluting sectors and their historical reduction/growth rates.
 *   **Macro Emission Deceleration:** Calculated Rolling 5-Year Compound Annual Growth Rates (CAGR) to track the momentum of national decarbonization.
 *   **Volatility Analysis:** Isolated the 2020 COVID-19 lockdown shock to prove the V-shaped rebound in the Transport sector.
 *   **Lagging Indicators:** Contrasted Waste Management success with Agricultural Methane stagnation to highlight critical policy gaps.
 *   **Predictive Forecasting:** Applied Machine Learning (`LinearRegression`) to mathematical test if current policies are sufficient to hit the legally mandated 2050 Net Zero target.
-
-![CH4 policy gap](methane_policy_gap.png)
-
-![Covid-19 anomaly in transport](covid_shock_rebound.png)
 
 ##  Technologies Used
 *   **Language:** Python
